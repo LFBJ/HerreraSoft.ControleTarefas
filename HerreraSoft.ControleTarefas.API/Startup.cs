@@ -27,7 +27,7 @@ namespace HerreraSoft.ControleTarefas.API
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World teste update!");
+                await context.Response.WriteAsync("Hello World teste update 2!");
             });
         }
     }
