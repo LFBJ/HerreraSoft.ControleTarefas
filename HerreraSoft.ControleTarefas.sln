@@ -5,6 +5,22 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerreraSoft.ControleTarefas.API", "HerreraSoft.ControleTarefas.API\HerreraSoft.ControleTarefas.API.csproj", "{29EC0C58-1EC4-431E-8E4E-A861624DDAB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Domain", "0 - Domain", "{9101E704-FABE-4FA4-969C-B9A3AB870FD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Tests", "1 - Tests", "{1EBAE72F-BBC6-442B-BE60-39E378CF15D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{24AE66C9-E961-4634-B0DE-78AEA57047AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - API", "3 - API", "{169CAE02-3DAC-405B-B34F-BA4ECC6F7FE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Presentation", "4 - Presentation", "{9F94F397-960F-41B2-976D-BBAEF7536840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerreraSoft.Domain", "HerreraSoft.Domain\HerreraSoft.Domain.csproj", "{16D3794C-1645-405F-A0B9-6EC35A9FFF9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerreraSoft.Infra", "HerreraSoft.Infra\HerreraSoft.Infra.csproj", "{0DCB0526-0DE4-487B-8FF5-CC289FDF8155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerreraSoft.MVC", "HerreraSoft.MVC\HerreraSoft.MVC.csproj", "{9C6384E5-10EC-4971-8409-D42585665144}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +31,27 @@ Global
 		{29EC0C58-1EC4-431E-8E4E-A861624DDAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29EC0C58-1EC4-431E-8E4E-A861624DDAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29EC0C58-1EC4-431E-8E4E-A861624DDAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D3794C-1645-405F-A0B9-6EC35A9FFF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D3794C-1645-405F-A0B9-6EC35A9FFF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D3794C-1645-405F-A0B9-6EC35A9FFF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D3794C-1645-405F-A0B9-6EC35A9FFF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCB0526-0DE4-487B-8FF5-CC289FDF8155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCB0526-0DE4-487B-8FF5-CC289FDF8155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCB0526-0DE4-487B-8FF5-CC289FDF8155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCB0526-0DE4-487B-8FF5-CC289FDF8155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6384E5-10EC-4971-8409-D42585665144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6384E5-10EC-4971-8409-D42585665144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6384E5-10EC-4971-8409-D42585665144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6384E5-10EC-4971-8409-D42585665144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29EC0C58-1EC4-431E-8E4E-A861624DDAB7} = {169CAE02-3DAC-405B-B34F-BA4ECC6F7FE6}
+		{16D3794C-1645-405F-A0B9-6EC35A9FFF9A} = {9101E704-FABE-4FA4-969C-B9A3AB870FD7}
+		{0DCB0526-0DE4-487B-8FF5-CC289FDF8155} = {24AE66C9-E961-4634-B0DE-78AEA57047AA}
+		{9C6384E5-10EC-4971-8409-D42585665144} = {9F94F397-960F-41B2-976D-BBAEF7536840}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6DF321BA-62EA-4F72-9248-3F5E8965275E}
